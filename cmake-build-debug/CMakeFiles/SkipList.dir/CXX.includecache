@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/alex/CLionProjects/SkipList/main.cpp
+iostream
+-
+string
+-
+slist.h
+/Users/alex/CLionProjects/SkipList/slist.h
+
+/Users/alex/CLionProjects/SkipList/slist.cpp.h
+slist.h
+/Users/alex/CLionProjects/SkipList/slist.h
+
+/Users/alex/CLionProjects/SkipList/slist.h
+cstdlib
+-
+iostream
+-
+slist.cpp.h
+/Users/alex/CLionProjects/SkipList/slist.cpp.h
+
